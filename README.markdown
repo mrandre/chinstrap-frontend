@@ -1,9 +1,3 @@
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
-
 Chinstrap is a straightforward JS templating tool based on a few simple premises:
 
 1. Your templates are authored and read by developers.
