@@ -14,6 +14,8 @@ So where a regular Resig template would look like:
 
 Data: { foo : true, bar : ['dog', 'cat', 'parrot'] }
 
+```html
+
 	<div class="body">
 		<% if ( foo ) { %>
 			<% for (var i=0, len=bar.length; i<len; i++) { %>
@@ -21,6 +23,7 @@ Data: { foo : true, bar : ['dog', 'cat', 'parrot'] }
 			<% } %>
 		<% } %>
 	</div>
+```
 
 The chinstrap version would look like:
 
