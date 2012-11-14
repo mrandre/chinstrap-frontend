@@ -14,7 +14,7 @@ So where a regular Resig template would look like:
 
 Data: { foo : true, bar : ['dog', 'cat', 'parrot'] }
 
-```html
+```
 
 	<div class="body">
 		<% if ( foo ) { %>
